@@ -853,6 +853,16 @@ h1 {
     overflow-x: auto;
 }
 
+.profiles::-webkit-scrollbar {
+    background-color: #fff;
+    height: 12px;
+}
+
+.profiles::-webkit-scrollbar-thumb {
+    background: #ff001e;
+    width: 70%;
+}
+
 .profile:hover {
     transform: scale(110%);
 }
@@ -862,6 +872,7 @@ h1 {
     height: 330px;
     background: #fff;
     transition: 1s;
+    margin-bottom: 20px;
 }
 
 .profile img {
