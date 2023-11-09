@@ -61,6 +61,10 @@
     .hero__body {
         margin-top: 200px;
     }
+
+    #hero {
+        padding: 0 0 150px 0;
+    }
 }
 
 @media (max-width: 1300px) {
